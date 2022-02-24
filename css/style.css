@@ -444,6 +444,103 @@ footer {
     margin-top: 40px;
     font-size: 1.5rem;
 }
+.banner-bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-bg div {
+    color: #fff;
+    font-size: 4rem;
+    margin-top: 120px;
+}
+.subpage-content {
+    width: 70%;
+}
+.subpage-img {
+    width: 30%;
+}
+.squares-link-offerpage {
+    justify-content: flex-start !important;
+    margin-left: 120px;
+}
+.subpage-offer-title {
+    color: #000;
+    font-size: 4rem;
+    margin: 0;
+}
+.supage-separate-line {
+    background-color: #f00;
+    height: 10px;
+    margin: 10px auto 20px auto;
+}
+.subpage-offer-description {
+    font-size: 1.75rem;
+    width: 75%;
+}
+.ml-auto {
+    margin-left: auto;
+}
+.text-right {
+    text-align: right;
+}
+.subpage-sygnet {
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+}
+.subpage-offer-title-2 {
+    font-size: 4rem;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.supage-separate-line-2 {
+    background-color: #f00;
+    height: 10px;
+    width: 30%;
+    margin: 10px auto 20px auto;
+}
+.subpage-offer-description-2 {
+    font-size: 1.75rem;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.subpage-margin-bottom {
+    margin-bottom: 80px;
+}
+.gallery-subpage-title {
+    color: #fff;
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 40px;
+}
+.gallery-desc {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    text-align: left;
+}
+.gallery-desc-2 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    text-align: left;
+}
+.pdf-title {
+    font-size: 2rem;
+    color: #000;
+    margin: auto 15px;
+}
+.pdf-size {
+    font-size: 2.2rem;
+    color: #C8C8C8;
+}
 @media (max-width: 1500px) {
     .square {
         width: 100px;
@@ -471,6 +568,9 @@ footer {
     }
     .copyright-content {
         width: 65%;
+    }
+    .subpage-offer-title-2 {
+        width: 60%;
     }
 }
 @media (max-width: 1399.98px) {
@@ -568,6 +668,27 @@ footer {
     .copyright-content {
         width: 60%;
     }
+    .squares-link-offerpage {
+        margin-left: 0px;
+    }
+    .subpage-content {
+        width: 60%;
+    }
+    .subpage-img {
+        width: 40%;
+    }
+    .subpage-offer-description {
+        width: 100%;
+    }
+    .subpage-sygnet {
+        display: none;
+    }
+    .subpage-offer-title-2 {
+        width: 70%;
+    }
+    .subpage-offer-description-2 {
+        width: 70%;
+    }
 }
 @media (max-width: 991.98px) {
     .buttons {
@@ -620,6 +741,15 @@ footer {
         margin-left: 10%;
         width: 50%;
     }
+    .subpage-offer-title-2 {
+        width: 100%;
+    }
+    .subpage-offer-description-2 {
+        width: 100%;
+    }
+    .gallery-desc-2 {
+        text-align: center;
+    }
 }
 @media (max-width: 767.98px) {
     .buttons {
@@ -652,6 +782,20 @@ footer {
     }
     .dots-line {
         width: 30%;
+    }
+    .subpage-content {
+        width: 100%;
+    }
+    .subpage-img {
+        width: 100%;
+        text-align: center;
+        margin: 30px auto;
+    }
+    .subpage-offer-title, .subpage-offer-description {
+        text-align: left !important;
+    }
+    .gallery-desc {
+        text-align: center;
     }
 }
 @media (max-width: 575.98px) {
@@ -730,6 +874,23 @@ footer {
         margin-top: 40px;
         width: 100%;
         display: block;
+    }
+    .subpage-content, .subpage-img {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .subpage-offer-title {
+        font-size: 3rem;
+    }
+    .subpage-offer-title-2 {
+        font-size: 3rem;
+    }
+    .gallery-subpage-title {
+        font-size: 3rem;
+    }
+    .padding-gallery {
+        padding-left: 10%;
+        padding-right: 10%;
     }
 }
 @media (max-width: 400px) {
