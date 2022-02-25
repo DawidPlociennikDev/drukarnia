@@ -35,15 +35,15 @@
         <div class="footer-menu">
             <div class="row">
                 <div class="offset-xl-2 col-xl-5 col-lg-6">
-                    <a href="">Usługi</a>
-                    <a href="">Technologie</a>
-                    <a href="">Jak przygotować pliki</a>
+                    <a href="offer.php">Oferta</a>
+                    <a href="print-technology.php">Technologie</a>
+                    <a href="files-prepare.php">Jak przygotować pliki</a>
                 </div>
                 <div class="col-xl-5 col-lg-6">
                    <a href="">Polityka prywatności</a>
                    <a href="">Pliki cookies</a>
-                   <a href="">O nas</a>
-                   <a href="">Kontakt</a>
+                   <a href="about.php">O nas</a>
+                   <a href="contact.php">Kontakt</a>
                 </div>
             </div>
         </div>

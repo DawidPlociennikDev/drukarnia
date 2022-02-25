@@ -1,6 +1,14 @@
 @font-face {
     font-family: Gothic;
-    src: url("../font/alternate-gothic-no3-d.ttf");
+    src: url('../font/AlternateGotNo3D.eot');
+    src: url('../font/AlternateGotNo3D.eot?#iefix') format('embedded-opentype'),
+        url('../font/AlternateGotNo3D.woff2') format('woff2'),
+        url('../font/AlternateGotNo3D.woff') format('woff'),
+        url('../font/AlternateGotNo3D.ttf') format('truetype'),
+        url('../font/AlternateGotNo3D.svg#AlternateGotNo3D') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 html,
@@ -11,7 +19,9 @@ body {
 a {
     text-decoration: none;
 }
-
+a:hover {
+    color: #f00 !important;
+}
 .navbar {
     padding: 0;
     position: fixed;
@@ -162,11 +172,14 @@ a {
     align-items: center;
     justify-content: center;
     display: flex;
-    color: #fff;
+    color: #fff !important;
     text-decoration: none;
     font-size: 1.75rem;
     text-align: center;
     transition: 250ms all ease-in-out;
+}
+.square:hover {
+    color: #fff !important;
 }
 .square-pink {
     background-color: #DF007B;
@@ -200,7 +213,7 @@ a {
     top: 41%;
     left: 41%;
     background-color: #f00;
-    color: #fff;
+    color: #fff !important;
     height: 100px;
     width: 100px;
     border-radius: 50%;
@@ -390,6 +403,7 @@ a {
 footer {
     background-color: #000C28;
     padding: 40px 100px;
+    z-index: 10;
 }
 .footer-content {
     display: flex;
@@ -434,6 +448,7 @@ footer {
     right: 5%;
     bottom: 5%;
     width: 90%;
+    z-index: -1;
 }
 .copyright-content {
     display: flex;
@@ -490,7 +505,7 @@ footer {
 }
 .subpage-sygnet {
     position: absolute;
-    bottom: 0;
+    top: 25%;
     right: 2%;
 }
 .subpage-offer-title-2 {
@@ -541,6 +556,189 @@ footer {
     font-size: 2.2rem;
     color: #C8C8C8;
 }
+.squares-subpage {
+    display: flex;
+    flex-wrap: wrap;
+}
+.square-subpage {
+    display: block;
+    width: 380px;
+    height: 220px;
+    line-height: 220px;
+    background-color: #f00;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 1.75rem;
+    color: #fff;
+    text-align: center;
+    transition: 250ms all;
+}
+.square-subpage:hover {
+    color: #fff !important;
+    border-radius: 150px;
+}
+.pink-square-subpage {
+    background-color: #DF077B !important;
+}
+.aqua-square-subpage {
+    background-color: #0C9ADC !important;
+}
+.blue-square-subpage {
+    background-color: #064086 !important;
+}
+.sygnet-subpage {
+    position: absolute;
+    left: 50%;
+    top: 86%;
+    z-index: 2;
+}
+.images-subpage-print {
+    text-align: right;
+}
+.subpage-second-image {
+    margin-top: 100px;
+    margin-left: -150px;
+}
+.square-subpage-2 {
+    width: 100%;
+    display: block;
+    height: 220px;
+    line-height: 220px;
+    font-size: 1.75rem;
+    color: #fff;
+    text-align: center;
+    transition: 250ms all;
+    background-color: #f00;
+    border-radius: 5px;
+}
+.square-subpage-2:hover {
+    color: #fff !important;
+    border-radius: 150px;
+}
+.check {
+    display: grid;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+}
+.check-separate-line {
+    display: block;
+    height: 10px;
+    width: 110%;
+    background-color: #f00;
+}
+.file-box-title {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.file-title {
+    font-size: 4rem;
+}
+.count {
+    color: #fff;
+    width: 84px;
+    height: 84px;
+    line-height: 84px;
+    font-size: 4rem;
+    background-color: #f00;
+    text-align: center;
+    margin-right: 30px;
+}
+.file-separate-line {
+    height: 10px;
+    background-color: #f00;
+    width: 110%;
+    margin-left: -10%;
+    z-index: -1;
+}
+.special-list {
+    font-size: 1.75rem;
+    list-style-image: url('../images/check.png');
+    padding-left: 3rem;
+}
+.revers {
+    margin-right: -10%;
+    margin-left: 0;
+}
+.subpage-sygnet-2 {
+    top: 50%;
+}
+.about-title-left {
+    text-align: left;
+}
+.about-title-right {
+    display: block;
+    text-align: right;
+}
+.about-description-left {
+    text-align: left;
+    font-size: 1.75rem;
+}
+.about-description-right {
+    text-align: right;
+    font-size: 1.75rem;
+}
+.separate-margin {
+    margin-bottom: 300px;
+}
+.contact-addresses {
+    display: flex;
+}
+.contact-address {
+    margin-right: 100px;
+}
+.contact-address a {
+    color: #000;
+}
+.contact-separate-line {
+    width: 550px !important;
+}
+.contact-form {
+    max-width: 700px;
+    margin: 50px auto;
+}
+.contact-form a {
+    color: #f00;
+}
+.form-control {
+    border: 0;
+    background-color: #F5F5F5;
+    padding: 40px;
+    border-radius: 0;
+    z-index: 2;
+    font-size: 2rem;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 1.75rem;
+    color: #A0A0A0;
+}
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-size: 1.75rem;
+    color: #A0A0A0;
+}
+  :-ms-input-placeholder { /* IE 10+ */
+    font-size: 1.75rem;
+    color: #A0A0A0;
+}
+  :-moz-placeholder { /* Firefox 18- */
+    font-size: 1.75rem;
+    color: #A0A0A0;
+}
+.form-check-input {
+    width: 2em;
+    height: 2em;
+    border: 0;
+    background-color: #F5F5F5;
+    border-radius: 0px !important;
+}
+.form-check-input:checked {
+    background-color: #f00;
+}
+.form-check-label {
+    font-size: 1.75rem;
+    margin-left: 20px;
+}
 @media (max-width: 1500px) {
     .square {
         width: 100px;
@@ -572,6 +770,19 @@ footer {
     .subpage-offer-title-2 {
         width: 60%;
     }
+    .subpage-sygnet {
+        top: 17%;
+    }
+    .subpage-sygnet-2 {
+        top: 50%;
+    }
+    .subpage-second-image {
+        margin-top: 60px;
+        margin-left: -100px;
+    }
+    .separate-margin {
+        margin-bottom: 200px;
+    }
 }
 @media (max-width: 1399.98px) {
     .buttons {
@@ -591,6 +802,21 @@ footer {
     }
     .dots-line {
         width: 43%;
+    }
+    .square-subpage {
+        width: 330px;
+        height: 195px;
+        line-height: 195px;
+    }
+    .sygnet-subpage {
+        left: 25%;
+        top: 84.5%;
+    }
+    .subpage-sygnet {
+        top: 11%;
+    }
+    .subpage-sygnet-2 {
+        top: 50%;
     }
 }
 @media (max-width: 1199.98px) {
@@ -618,7 +844,7 @@ footer {
         text-align: center;
         padding: 20px;
         border: 2px solid #f00;
-        color: #000;
+        color: #000 !important;
         text-decoration: none;
         width: 100%;
         border-radius: 5px;
@@ -689,6 +915,23 @@ footer {
     .subpage-offer-description-2 {
         width: 70%;
     }
+    .square-subpage {
+        width: calc(50% - 20px);
+        height: 160px;
+        line-height: 160px;
+    }
+    .sygnet-subpage {
+        width: 45%;
+        left: 35%;
+        top: 98%;
+    }
+    .subpage-second-image {
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+    .separate-margin {
+        margin-bottom: 100px;
+    }
 }
 @media (max-width: 991.98px) {
     .buttons {
@@ -750,6 +993,20 @@ footer {
     .gallery-desc-2 {
         text-align: center;
     }
+    .square-subpage {
+        width: 100%;
+        height: 160px;
+        line-height: 160px;
+    }
+    .sygnet-subpage {
+        position: unset;
+    }
+    .images-subpage-print {
+        text-align: center;
+    }
+    .file-title {
+        font-size: 3rem;
+    }
 }
 @media (max-width: 767.98px) {
     .buttons {
@@ -796,6 +1053,20 @@ footer {
     }
     .gallery-desc {
         text-align: center;
+    }
+    .images-subpage-print {
+        margin-top: 60px;
+    }
+    .square-subpage {
+        height: 200px;
+        line-height: 200px;
+    }
+    .check-separate-line {
+        width: 100%;
+    }
+    .file-separate-line {
+        width: 100%;
+        margin-left: 0;
     }
 }
 @media (max-width: 575.98px) {
@@ -892,6 +1163,34 @@ footer {
         padding-left: 10%;
         padding-right: 10%;
     }
+    .check-padding, .separate-margin {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .file-title {
+        font-size: 2.5rem;
+    }
+    .contact-addresses {
+        padding-left: 10%;
+        padding-right: 10%;
+        display: block;
+    }
+    .contact-address {
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+    .contact-title {
+        font-size: 2.5rem;
+    }
+    .contact-separate-line {
+        width: 345px !important;
+    }
+    .contact-form {
+        width: 80%;   
+    }
+    .form-check-label {
+        font-size: 1rem;
+    }
 }
 @media (max-width: 400px) {
     .buttons {
@@ -931,5 +1230,17 @@ footer {
     }
     .logo-footer {
         width: 240px;
+    }
+    .images-subpage-print img {
+        width: 80%;
+    }
+    .sygnet-subpage {
+        width: 45% !important;
+    }
+    .contact-title {
+        font-size: 2rem;
+    }
+    .contact-separate-line {
+        width: 275px !important;
     }
 }

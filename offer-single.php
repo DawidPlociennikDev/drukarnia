@@ -12,7 +12,7 @@
             <div class="supage-separate-line"></div>
             <div class="subpage-offer-description">
                 Polecamy Państwu nasze usługi w zakresie produkcji szeroko rozumianych segregatorów. Podstawowym zadaniem naszych produktó jest zapewnienie Waszej firmie profesjonalnej reklamy wizualnej, umieszczonej na podkładkach, teczkach i segregatorach użytkowo-reklamowych. Produkty te mogą towarzyszyć zarówno Pastwa klientom jak i pracownikom, podczas pracy w biurze czy terenie, jak i w życiu prywatnym.
-                <img src="images/sygnet.png" alt="" width="160" class="subpage-sygnet">
+                <img src="images/sygnet.png" alt="" width="160" class="subpage-sygnet subpage-sygnet-2">
             </div>
         </div>
         <div class="subpage-img">

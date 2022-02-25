@@ -8,28 +8,28 @@
             <div class="hero-subtitle">historia, jakość, nowoczesność</div>
         </div>
         <div class="buttons">
-            <a href="" class="button">
+            <a href="contact.php" class="button">
                 <span class="button-index">01</span>
                 <div class="text-button">
                     Znajdź swój produkt
                     <div class="underscore-button"></div>
                 </div>
             </a>
-            <a href="" class="button">
+            <a href="print-technology.php" class="button">
                 <span class="button-index">02</span>
                 <div class="text-button">
                     Poznaj nasze technologie
                     <div class="underscore-button second-underscore-button"></div>
                 </div>
             </a>
-            <a href="" class="button">
+            <a href="contact.php" class="button">
                 <span class="button-index">03</span>
                 <div class="text-button">
                     Zapytaj o wycenę
                     <div class="underscore-button third-underscore-button"></div>
                 </div>
             </a>
-            <a href="" class="button">
+            <a href="contact.php" class="button">
                 <span class="button-index">04</span>
                 <div class="text-button">
                     Kontakt
@@ -51,80 +51,80 @@
             </div>
             <div class="col-xl-7 align-self-end my-5 my-xl-0">
                 <div class="squares-link">
-                    <a href="" class="square">
+                    <a href="offer-single.php" class="square">
                         Wizytówki
                     </a>
-                    <a href="" class="square">
+                    <a href="offer-single.php" class="square">
                         Katalogi
                     </a>
-                    <a href="" class="square square-pink">
+                    <a href="offer-single.php" class="square square-pink">
                         Ulotki
                     </a>
-                    <a href="" class="square square-aqua">
+                    <a href="offer-single.php" class="square square-aqua">
                         Plakaty
                     </a>
-                    <a href="" class="square square-blue">
+                    <a href="offer-single.php" class="square square-blue">
                         Notesy
                     </a>
-                    <a href="" class="square square-black">
+                    <a href="offer-single.php" class="square square-black">
                         Banery
                     </a>
-                    <a href="" class="square">
+                    <a href="offer-single.php" class="square">
                         Koperty
                     </a>
-                    <a href="" class="square square-pink">
+                    <a href="offer-single.php" class="square square-pink">
                         Etykiety
                     </a>
-                    <a href="" class="square square-aqua">
+                    <a href="offer-single.php" class="square square-aqua">
                         Proof cyfrowy
                     </a>
-                    <a href="" class="square square-blue">
+                    <a href="offer-single.php" class="square square-blue">
                         Identyfikatory
                     </a>
-                    <a href="" class="square square-black">
+                    <a href="offer-single.php" class="square square-black">
                         Menu
                     </a>
-                    <a href="" class="square square-black">
+                    <a href="offer-single.php" class="square square-black">
                         Fotoobrazy
                     </a>
-                    <a href="" class="square square-pink">
+                    <a href="offer-single.php" class="square square-pink">
                         Kalendarze
                     </a>
-                    <a href="" class="square square-aqua">
+                    <a href="offer-single.php" class="square square-aqua">
                         Certyfikaty i dyplomy
                     </a>
-                    <a href="" class="square square-blue">
+                    <a href="offer-single.php" class="square square-blue">
                         Roll-upy
                     </a>
-                    <a href="" class="square square-black">
+                    <a href="offer-single.php" class="square square-black">
                         Mapy
                     </a>
-                    <a href="" class="square square-black">
+                    <a href="offer-single.php" class="square square-black">
                         Pudełka i opakowania
                     </a>
-                    <a href="" class="square square-black">
+                    <a href="offer-single.php" class="square square-black">
                         Arkusze plano
                     </a>
-                    <a href="" class="square square-aqua">
+                    <a href="offer-single.php" class="square square-aqua">
                         Papiery firmowe
                     </a>
-                    <a href="" class="square square-blue">
+                    <a href="offer-single.php" class="square square-blue">
                         Teczki ofertowe
                     </a>
-                    <a href="" class="square square-black">
+                    <a href="offer-single.php" class="square square-black">
                         Naklejki
                     </a>
-                    <a href="" class="square square-black">
+                    <a href="offer-single.php" class="square square-black">
                         Zaproszenia
                     </a>
-                    <a href="" class="square square-black">
+                    <a href="offer-single.php" class="square square-black">
                         Kartki świąteczne
                     </a>
-                    <a href="" class="square square-black">
+                    <a href="offer-single.php" class="square square-black">
                         Wiele innych
                     </a>
                 </div>
-                <a href="" class="offer-mobile d-xl-none">
+                <a href="offer.php" class="offer-mobile d-xl-none">
                     <img src="images/polygon.png" alt="" class="polygon"> Oferta <img src="images/polygon.png" alt="" class="polygon polygon-reverse">
                 </a>
             </div>
@@ -167,7 +167,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo tempora magni cum totam eos, rerum aliquam natus optio, ex consectetur deleniti incidunt est odit tempore, deserunt eaque eveniet delectus culpa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, maxime reiciendis enim animi illum commodi! Distinctio fugiat, cum obcaecati totam voluptate eligendi illo a hic possimus accusamus nemo ullam natus!<br><br>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, dolores! Earum qui autem, non excepturi pariatur distinctio corrupti labore, ullam necessitatibus molestias animi consectetur quis quasi, facilis provident quaerat atque.
                 </div>
-                <a href="" class="offer-mobile d-xl-none text-white">
+                <a href="about.php" class="offer-mobile d-xl-none text-white">
                     <img src="images/polygon.png" alt="" class="polygon"> Więcej... <img src="images/polygon.png" alt="" class="polygon polygon-reverse">
                 </a>
             </div>
