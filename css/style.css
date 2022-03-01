@@ -1,11 +1,6 @@
 @font-face {
-    font-family: Gothic;
-    src: url('../font/AlternateGotNo3D.eot');
-    src: url('../font/AlternateGotNo3D.eot?#iefix') format('embedded-opentype'),
-        url('../font/AlternateGotNo3D.woff2') format('woff2'),
-        url('../font/AlternateGotNo3D.woff') format('woff'),
-        url('../font/AlternateGotNo3D.ttf') format('truetype'),
-        url('../font/AlternateGotNo3D.svg#AlternateGotNo3D') format('svg');
+    font-family: Oswald;
+    src: url('../font/Oswald-VariableFont_wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -14,7 +9,7 @@
 html,
 body {
     overflow-x: hidden;
-    font-family: Gothic;
+    font-family: Oswald;
 }
 a {
     text-decoration: none;
