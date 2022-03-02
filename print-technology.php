@@ -22,7 +22,7 @@
         </div>
         <div class="col-xl-4 col-lg-5 col-md-6 position-relative images-subpage-print">
             <img src="images/enter.png" alt="" class="img-fluid">
-            <img src="images/sygnet.png" alt="" class="img-fluid sygnet-subpage">
+            <img src="images/sygnet.png" alt="" class="img-fluid sygnet-subpage" style="z-index: 11">
         </div>
     </div>
 </section>
